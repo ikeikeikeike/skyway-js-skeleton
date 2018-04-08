@@ -4,7 +4,7 @@
   "description": "SkyWay skeleton app",
   "main": "script.js",
   "scripts": {
-    "start": "http-server -a 127.0.0.1 -p 8080 -o"
+    "start": "http-server -a 0.0.0.0 -p 8080 -o"
   },
   "author": "",
   "license": "",

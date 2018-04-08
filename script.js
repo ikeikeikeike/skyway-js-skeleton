@@ -101,6 +101,8 @@ $(function() {
             $('#my-video').get(0).srcObject = stream;
         localStream = stream;
 
+        window.Recorder.recordVideo(localStream);
+
         if (existingCall) {
             existingCall.replaceStream(stream);
             return;

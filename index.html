@@ -6,6 +6,7 @@
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.webrtc.ecl.ntt.com/skyway-latest.js"></script>
     <script type="text/javascript" src="key.js"></script>
+    <script type="text/javascript" src="record.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </head>
 
@@ -56,9 +57,14 @@
             <p>Currently in call with <span id="their-id">...</span></p>
             <p><a href="#" class="pure-button pure-button-error" id="end-call">End call</a></p>
         </div>
+
+        <div>
+          <h3>Record</h3>
+          <a id="download">Download</a>
+          <button id="stop">Stop</button>
+        </div>
     </div>
 </div>
-
 
 </body>
 </html>
